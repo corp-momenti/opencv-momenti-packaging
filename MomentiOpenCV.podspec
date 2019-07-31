@@ -11,8 +11,8 @@ Pod::Spec.new do |spec|
   spec.author = { "Homer Kim" => "homer@momenti.tv" }
   spec.platform = :ios, '8.0'
   spec.source = {
-    	:http => 'https://github.com/opencv/opencv/releases/download/4.1.0/opencv-4.1.0-ios-framework.zip',
-      :sha256 => '7857f7bdebb1967928f89e4585726528ad6faa3b8216497c742aba416ca741bd'
+    	:http => 'https://github.com/themomenti-dev/opencv-momenti-packaging/releases/download/v4.1.0/momenti-opencv-4.1.0-ios-framework.zip',
+      :sha256 => 'a5c602cd57598681feeb4fd9a588e42a21ca2e911521db4b00a1152af4079fb5'
   }
   spec.vendored_frameworks = 'opencv2.framework'
   spec.header_mappings_dir = 'opencv2.framework/Versions/A/Headers'
