@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.author = "opencv.org"
   spec.platform = :ios, '8.0'
   spec.source = {
-    	:http => 'https://firebasestorage.googleapis.com/v0/b/momenti-239515.appspot.com/o/opencv%2Fmomenti-opencv-4.1.0-ios-framework.zip?alt=media&token=1f012fbc-eb94-4472-96b4-a6013876026c',
+    	:http => 'https://github.com/themomenti-dev/opencv-momenti-packaging/releases/download/v4.1.0/momenti-opencv-4.1.0-ios-framework.zip',
       :sha256 => 'a5c602cd57598681feeb4fd9a588e42a21ca2e911521db4b00a1152af4079fb5'
   }
   spec.vendored_frameworks = 'opencv2.framework'
